@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_home/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+
+
+    <title>Píntala</title>
+</head>
+
+<body>
+    <!-- navbar-toggeable-sn es para que sea responsive -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-toggeable-sn">
+        <a class="navbar-brand" href="#"><img class="logohistory" src="Iconos/logo tipo pintala pequeño.png"
+                alt="logo"></a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <ion-icon name="grid-outline" size="large"></ion-icon>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="home" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cátalogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutus" href="#"> Métodos de Pago</a>
+                </li>
+            </ul>
+            <!-- BOOTSTRAP solo maneja REM #/16 solo puedo usar de 0 a 1 -->
+            <div class="login d-flex justify-content-center mt-4 mr-5">
+                <div class="iconodetails">
+                    <a class="nav-link" href="#"><img src="Iconos/painter.png" alt="user" width="35px"></a>
+                    <p>Login</p>
+
+                </div>
+                <div class="iconodetails">
+                    <a class="nav-link" href="#"><img src="Iconos/log-out.png" alt="logout" width="35px"></a>
+                    <p>logout</p>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 400px;">
+            <div class="carousel-item active">
+                <img src="imagenesdisponibles/kitexplicacion.png" class="d-block w-100" alt="kit">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenesdisponibles/pinturas y pinceles.jpg" class="d-block w-100" alt="pinturas">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenesdisponibles/pinturas.jpg" class="d-block w-100" alt="pinceles">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenesdisponibles/pinceles.jpg" class="d-block w-100" alt="pinturasypinceles">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- 
+    <section id="slider"> -->
+    <!-- codigo copiado de bootstrap para hacer un slider-->
+
+    </div>
+
+
+    <section class="historia py-2 text-center">
+        <div class="container-fluid">
+            <img src="imagenesdisponibles/KitlienzoPinturasPinceles.png" alt="arte" width="181"
+                class="img-fluid mx-auto py-5">
+
+            <h2 id="titulo" class="display-5">Que traen nuestros kits</h2>
+            <p class="py-3"> Kits traen <br>
+                - Pinturas
+                <br> - Pinceles
+                <br> - Pinturas Acrílicas
+            </p>
+
+            <button type="button" class="btn btn-outline-danger">Compra Aqui</button>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="contenedor container-fluid p-5">
+        <h1 style="padding: 80px;" class="text-white text-center">Diseños disponibles</h1>
+
+        <!-- AQUI EMPIEZAN LAS COLUMNAS CON DISENO col-md/6 es tamaño que ocupara mi fila van hasta 12 sm md son propiedades responsive -->
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="imagenes-container">
+                    <div class="imagenes-details">
+                        <h2>Perro - Kit de Pintura</h2>
+                    </div>
+                    <img src="imagenesdisponibles/E1013.png" class="img-fluid" alt="Perro">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <div class="imagenes-container">
+                    <div class="imagenes-details">
+                        <h2>-León de lado - Kit de Pintura</h2>
+                    </div>
+                    <img src="imagenesdisponibles/E872.png" class="img-fluid" alt="león de lado">
+                    <!-- img fluid me las separa -->
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="imagenes-container">
+                    <div class="imagenes-details">
+                        <h2>-Perro Flores - Kit de Pintura</h2>
+                    </div>
+                    <img src="imagenesdisponibles/PH9454.png" class="img-fluid" alt="Perro Flores">
+                    <!-- img fluid me las separa -->
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <div class="imagenes-container">
+                    <div class="imagenes-details">
+                        <h2>-Tigre Flores - Kit de Pintura</h2>
+                    </div>
+                    <img src="imagenesdisponibles/PH9481.png" class="img-fluid" alt="Tigre Flores">
+                    <!-- img fluid me las separa -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <form action="">
+            <div class="container" style="padding-top: 200px;">
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+
+                        <h3> Métodos de Pago</h3>
+                        <p>Aceptamos Bancolombia
+                        <br>Aceptamos Davivienda
+
+                            </p>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="phonenumber">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group" >
+                                    <textarea class="form-control" > </textarea>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </form>
+
+
+
+
+    </section>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+
+</html>
